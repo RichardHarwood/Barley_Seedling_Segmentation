@@ -1,0 +1,4 @@
+# Ignore the contents of the source-image folder (large field captures),
+# but keep the folder itself so the expected input path still exists.
+USYD_20250705/processed_JPG_subset/*
+!USYD_20250705/processed_JPG_subset/.gitkeep
