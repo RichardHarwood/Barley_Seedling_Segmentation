@@ -1,5 +1,7 @@
 # Barley Seedling Segmentation
 # Note this is just a quick repo for an SOP.
+# For discussion:
+File type for training data (jpeg used her for e.g. but .TIFF is what I (richard) have always used
 Prepare training data for barley **seedling segmentation** models.
 
 The raw field captures are very large (~122 megapixel) RGB JPGs, which are far
