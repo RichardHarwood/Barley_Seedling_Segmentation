@@ -1,10 +1,12 @@
 # Barley Seedling Segmentation
 # Note this is just a quick repo for an SOP.
-# For discussion:
+#### For discussion:
 File type for training data (jpeg used her for e.g. but .TIFF is what I (richard) have always used
+
+#################################################################################################
 Prepare training data for barley **seedling segmentation** models.
 
-The raw field captures are very large (~122 megapixel) RGB JPGs, which are far
+The raw field captures are very large (~122 megapixel,not juse using a ixcaputre processed image here) RGB JPGs, which are far
 too big to feed directly into a segmentation network. This repo holds the
 tooling to turn those big images into small, fixed-size **tiles** that are
 convenient to annotate and train on.
